@@ -1,0 +1,134 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Service Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <div class="flex min-h-screen">
+   <!-- Sidebar -->
+   <div class="bg-red-700 text-white w-64 p-4">
+    <div class="flex flex-col items-center">
+     <img alt="User profile picture" class="rounded-full mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/WyhKkMds82LOOJiGVubwzsVw2Nige3GL6XvisUgceu5N8H6TA.jpg" width="100"/>
+     <h2 class="text-xl font-bold">
+      Rangga
+     </h2>
+    </div>
+    <nav class="mt-8">
+     <ul>
+      <li class="mb-4">
+       <a class="block py-2 px-4 bg-red-800 rounded" href="#">
+        Dashboard User
+       </a>
+      </li>
+      <li class="mb-4">
+       <a class="block py-2 px-4" href="#">
+        Riwayat Order
+       </a>
+      </li>
+      <li class="mb-4">
+      
+      </li>
+      <li class="mb-4">
+       <a class="block py-2 px-4" href="#">
+        Deposit
+       </a>
+      </li>
+      <li class="mb-4">
+       <a class="block py-2 px-4" href="#">
+        Service
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+   <!-- Main Content -->
+   <div class="flex-1 p-8">
+    <div class="flex items-center mb-8">
+     <button class="text-2xl mr-4">
+      <i class="fas fa-arrow-left">
+      </i>
+     </button>
+     <h1 class="text-2xl font-bold">
+      Service Page
+     </h1>
+    </div>
+    <p class="mb-8">
+     Look what you have made today!
+    </p>
+    <div class="flex space-x-4 mb-8">
+     <button class="bg-gray-200 p-4 rounded flex items-center space-x-2">
+      <i class="fas fa-shopping-cart">
+      </i>
+      <span>
+       Order
+      </span>
+     </button>
+     <button class="bg-gray-200 p-4 rounded flex items-center space-x-2">
+      <i class="fas fa-credit-card">
+      </i>
+      <span>
+       Payment
+      </span>
+     </button>
+     <button class="bg-gray-200 p-4 rounded flex items-center space-x-2">
+      <i class="fas fa-cogs">
+      </i>
+      <span>
+       API
+      </span>
+     </button>
+    </div>
+    <div class="mb-8">
+     <input class="w-full p-2 border rounded" placeholder="cari riwayat pesanan disini!" type="text"/>
+    </div>
+    <div class="mb-8">
+     <div class="flex items-center mb-4">
+      <input class="mr-2" id="aktif1" name="status1" type="radio"/>
+      <label class="mr-4" for="aktif1">
+       Aktif
+      </label>
+      <input class="mr-2" id="sembunyikan1" name="status1" type="radio"/>
+      <label for="sembunyikan1">
+       Sembunyikan
+      </label>
+     </div>
+     <p class="mb-4">
+      Pengaturan Filter?
+     </p>
+     <div class="flex items-center mb-4">
+      <input class="mr-2" id="aktif2" name="status2" type="radio"/>
+      <label class="mr-4" for="aktif2">
+       Aktif
+      </label>
+      <input class="mr-2" id="sembunyikan2" name="status2" type="radio"/>
+      <label for="sembunyikan2">
+       Sembunyikan
+      </label>
+     </div>
+     <p class="mb-4">
+      Tampilkan order history?
+     </p>
+     <div class="flex items-center mb-4">
+      <input class="mr-2" id="aktif3" name="status3" type="radio"/>
+      <label class="mr-4" for="aktif3">
+       Aktif
+      </label>
+      <input class="mr-2" id="sembunyikan3" name="status3" type="radio"/>
+      <label for="sembunyikan3">
+       Sembunyikan
+      </label>
+     </div>
+    </div>
+    <button class="bg-green-500 text-white py-2 px-4 rounded">
+     Save
+    </button>
+   </div>
+  </div>
+ </body>
+</html>

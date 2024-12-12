@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Riwayat Order</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100">
+    <div class="flex min-h-screen">
+        <!-- Sidebar -->
+        <div class="bg-red-700 text-white w-64 p-4">
+            <div class="flex flex-col items-center">
+                <img alt="User profile picture" class="rounded-full mb-4" height="100" src="https://placehold.co/100x100" width="100"/>
+                <p class="text-lg font-semibold">Rangga</p>
+            </div>
+            <nav class="mt-8">
+                <ul>
+                    <li class="mb-4">
+                        <a class="block py-2 px-4 bg-red-800 rounded" href="#">Dashboard User</a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="block py-2 px-4" href="#">Riwayat Order</a>
+                    </li>
+                   
+                    <li class="mb-4">
+                        <a class="block py-2 px-4" href="#">Deposit</a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="block py-2 px-4" href="#">Service</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Main Content -->
+        <div class="flex-1 p-6">
+            <div class="flex justify-between items-center mb-6">
+                <div class="flex items-center">
+                    <i class="fas fa-arrow-left text-xl mr-2"></i>
+                    <i class="fas fa-exchange-alt text-xl mr-2"></i>
+                    <h1 class="text-xl font-semibold">Riwayat Order</h1>
+                </div>
+                <p class="text-lg">Hi, Angga</p>
+            </div>
+            <div class="mb-6 flex">
+                <input class="w-full p-2 border rounded-l" placeholder="Cari riwayat pesananmu disini!" type="text"/>
+                <button class="bg-pink-200 text-black py-2 px-4 rounded-r">Search</button>
+            </div>
+            <div class="flex space-x-2 mb-6">
+                <button class="bg-pink-200 text-black py-2 px-4 rounded">ALL</button>
+                <button class="bg-pink-200 text-black py-2 px-4 rounded">Pending</button>
+                <button class="bg-pink-200 text-black py-2 px-4 rounded">In Progres</button>
+                <button class="bg-pink-200 text-black py-2 px-4 rounded">Completed</button>
+                <button class="bg-pink-200 text-black py-2 px-4 rounded">Partial</button>
+                <button class="bg-pink-200 text-black py-2 px-4 rounded">Processing</button>
+                <button class="bg-pink-200 text-black py-2 px-4 rounded">Canceled</button>
+            </div>
+            <div class="bg-gray-700 text-white rounded p-4">
+                <table class="w-full">
+                    <thead>
+                        <tr>
+                            <th class="text-left">ID</th>
+                            <th class="text-left">Date</th>
+                            <th class="text-left">Link</th>
+                            <th class="text-left">Charge</th>
+                            <th class="text-left">Start count</th>
+                            <th class="text-left">Quantity</th>
+                            <th class="text-left">Service</th>
+                            <th class="text-left">Status</th>
+                            <th class="text-left">Remains</th>
+                            <th class="text-left">Order Again</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
